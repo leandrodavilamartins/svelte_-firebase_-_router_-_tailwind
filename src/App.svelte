@@ -9,7 +9,10 @@
 </script>
 
 <main>
-  <h1>Hello {name}!</h1>
+  <h1 class="py-8 px-4 border border-indigo-900 shadow-lg">Hello {name}!</h1>
+  <div class="container mx-auto border border-indigo-500 px-4">
+    <h1 class="font-bold text-5xl">Photo Gallery</h1>
+  </div>
   <nav>
     <a href="/#/about">About</a>
     <a href="/#/help">Help</a>
@@ -20,6 +23,15 @@
       "/help": Help,
     }}
   />
+  <div class="container mx-auto">
+    <h2>Here is a demo test</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+      officiis in voluptatum consectetur fugiat, velit molestias voluptas!
+      Delectus ad ea voluptate voluptates, fugit laborum blanditiis ratione
+      nobis dolore reiciendis saepe!
+    </p>
+  </div>
 </main>
 
 <style>
